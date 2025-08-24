@@ -9,7 +9,6 @@ html {
 	height: 100% !important;
 }
 
-
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 0 20px 0;
@@ -80,9 +79,8 @@ hr {
 
 /* Navigation */
 #menu {
-	padding: 10px;
+	padding: 15px;
 	transition: all 0.8s;
-	margin-bottom: 10px;
 }
 
 #menu.navbar-default {
@@ -152,11 +150,10 @@ hr {
 	background-color: #1b6d3f;
 }
 
-/* Да се вижда заглавието*/
 .section-title {
-	margin-bottom: 20px;
-}
+	margin-bottom: 70px;
 
+}
 
 .section-title h2 {
 	position: relative;
@@ -187,17 +184,8 @@ hr {
 	font-size: 14px;
 	font-weight: 600;
 	border-radius: 4px;
-	transition: all 0.8s;
+	transition: all 0.3s;
 }
-
-@media (max-width :687px) {
-
-	.btn-custom,
-	.btn {
-		visibility: hidden;
-	}
-}
-
 
 .btn-custom:hover,
 .btn-custom:focus,
@@ -257,7 +245,7 @@ a:focus,
 	color: #fff;
 	font-size: 19px;
 	line-height: 28px;
-	padding: 15px;
+	padding: 25px;
 	max-width: 600px;
 	margin: 0 auto;
 	margin-bottom: 40px;
@@ -277,19 +265,6 @@ header .intro-text span {
 	font-weight: 500;
 	font-size: 35px;
 }
-
-@media (max-width: 768px) {
-	.intro {
-		height: 800px;
-	}
-}
-
-@media (max-width: 768px) {
-	.btn-custom {
-		visibility: visible;
-	}
-}
-
 
 /* Get Touch Section */
 #get-touch {
@@ -319,82 +294,13 @@ header .intro-text span {
 
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 110px 0;
 	background: #f6f6f6;
 }
 
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
-	font-size: 22px;
-}
-
-#centeredh3 {	
-	position: relative;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
-		
-}
-/*#centeredh3 #center::after {
-	position: absolute;
-	content: "";
-	background-color: #d36a71;
-	height: 3px;
-	width: 50px;
-	bottom: -1px;
-	
-}*/
-
-
-#btn-choose {
-	display: flex;
-	justify-content: center;
-	gap: 30px;
-}
-
-#centeredh3 #center {
-	text-align: center;
-}
-
-h2::after {
-	position: absolute;
-	content: "";
-	background-color: #d36a71;
-	height: 3px;
-	width: 50px;
-	bottom: -1px;
-	left: 0;
-
-}
-
-#btn-choose .btn-choose {
-	background-color: #a8b7d7;
-	color: #e5e5e5;
-	padding: 20px 18px;
-	margin-top: 30px;
-	border-radius: 5px;
-	border: 1px solid transparent;
-	font-size: 20px;
-	letter-spacing: 1px;
-	font-weight: 600;
-	touch-action: manipulation;
-	cursor: pointer;
-
-}
-
-#btn-choose .btn-choose:hover {
-	transition: all 0.8s;
-	background: #d36a71;
-}
-
-@media (max-width: 1250px) and (min-width: 375px) {
-
-	#btn-choose,
-	a {
-		padding-left: 1px;
-	}
 }
 
 #about h2 {
@@ -445,25 +351,8 @@ h2::after {
 }
 
 /* Services Section */
-
-#back {
-	text-align: center;
-	font-size: large;
-	padding: 10px 10px;
-	border-radius: 5px;
-	border: #333 solid;
-	margin-top: 10px;
-}
-
 #services {
 	padding: 100px 0;
-}
-
-#services .service-media img:hover {
-	transform: scale(1.1);
-	transition: transform 0.8s;
-	opacity: 1;
-	box-shadow: 4px 4px 5px rgb(234, 228, 228);
 }
 
 #services .service-media {
@@ -476,7 +365,6 @@ h2::after {
 	width: 100%;
 	height: auto;
 	cursor: pointer;
-	border-radius: 5px;
 }
 
 #services .service-desc {
@@ -486,17 +374,14 @@ h2::after {
 
 #services h3 {
 	font-weight: 700;
-	padding: 15px 0 0;
-}
-
-#services .visible {
-	font-weight: 700;
-	padding: 45px 0 0 0;
+	padding: 5px 0;
 }
 
 #services .service-desc hr {
 	margin-left: 0;
 }
+
+
 
 
 #services2 {
@@ -532,12 +417,6 @@ h2::after {
 #portfolio {
 	padding: 100px 0;
 	background: #f6f6f6;
-}
-#portfolio ,.service-media img:hover{
-		transform: scale(1.1);
-	transition: transform 0.8s;
-	opacity: 1;
-	box-shadow: 4px 4px 5px rgb(234, 228, 228);
 }
 
 .portfolio-item {
@@ -772,13 +651,12 @@ label {
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
 #footer p {
 	color: #1f386e;
 	font-size: 14px;
-	margin-top: 10px;
 }
 
 #footer a {
@@ -787,15 +665,6 @@ label {
 
 #footer a:hover {
 	color: #d36a71;
-}
-
-#footer #author {
-	margin: 10px 7px;
-	font-size: 12px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#footer #author #vladi{
-	font-size: 22px;
 }
 
 @media (max-width: 768px) {
@@ -853,7 +722,6 @@ label {
 	padding-left: 210px;
 }
 
-
 .container_2 {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -893,53 +761,7 @@ label {
 }
 
 .summarize {
-	padding: 30px;
+	padding:30px;
 	font-weight: 600;
-
-}
-
-.service-desc-:hover {
-	transform: scale(1.1);
-	transition: transform 0.6s;
-	opacity: 1;
-	cursor: pointer;
-
-}
-
-.service-desc- p {
-	color: black;
-	text-decoration: none;
-	margin-left: 10px;
-	margin-bottom: 20px;
-}
-
-.service-desc- h3 {
-	margin-left: 10px;
-
-}
-.img-up-centered {
-float: inline-end;
-}
-.container-info{	
-	justify-items: center;
 	
-}
-.info{
-	margin-top: 140px;
-	padding: 20px;
-    border: #cc8186 solid;
-	border-radius: 15px;
-	cursor:pointer;
-}
-.container-info .info:hover{
-	transition: all 0.8s;
-	background-color: #999;
-}
-#serviceType{
-	color: #666;
-	margin-bottom: 20px;
-}
-.chooseService{
-	font-size:20px;
-	padding-right: 7px;
 }
